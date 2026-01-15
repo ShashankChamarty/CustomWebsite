@@ -34,7 +34,7 @@ nav.navbar {
   border-radius: 999px;
   border: 1px solid rgba(51, 173, 59, 0.5);
   background: rgba(51, 173, 59, 0.12);
-  color: #b2ffbb;
+  color: #7db3f6;
   font-family: 'Jersey 10', sans-serif;
   font-size: 1.1rem;
   text-decoration: none;
@@ -67,7 +67,7 @@ nav.navbar {
 
 .nav-link {
   text-decoration: none;
-  color: #4FA031;
+  color: #7db3f6;
 }
 
 /* hide the hamburger by default */

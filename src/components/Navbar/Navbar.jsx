@@ -5,8 +5,6 @@ import './Navbar.css';
 const products = [
   { title: 'HOME',     source: '/',         id: 1 },
   { title: 'PROJECTS', source: '/projects', id: 2 },
-  { title: 'RESEARCH', source: '/research', id: 4 },
-  { title: 'SAIBORG',  source: '/saiborg',  id: 3 },
   { title: 'ABOUT',    source: '/about',    id: 4 },
   
 ];
@@ -41,14 +39,6 @@ export default function Navbar() {
       <div className="navbar-inner">
         <div className="nav-left">
           <img src="logoo.png" alt="Logo" className="logo" />
-          <a
-            className="resume-button"
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            View resume
-          </a>
         </div>
 
         {/* Desktop Links */}

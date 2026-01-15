@@ -32,19 +32,19 @@ function Home() {
           aria-hidden="true"
         />
         <div className={styles.intro}>
-          <AnimatedText text="Hey there! I'm" />
+          <AnimatedText text="Hello! I'm" />
         </div>
 
         <div className={styles.name}>
           <div className={styles.animclip}>
-            <AnimatedText text="Sai Chamarty" baseDelay={0.5} />
+            <AnimatedText text="Shashank Chamarty" baseDelay={0.5} />
           </div>
         </div>
 
         <div className={styles.description}>
           {/* keep this as a single AnimatedText call */}
           <AnimatedText
-            text="CS undergraduate focused on building intelligent robotic systems using machine learning and computer vision."
+            text="High school junior exploring robotics and computer science through independent research, simulation, and real-world engineering projects."
             baseDelay={1}
             letterDelay={0}
             duration={0.5}
@@ -61,31 +61,25 @@ function Home() {
         <h2 className={styles.sectionTitle}>What I work on</h2>
 
         <div className={styles.workGrid}>
+
           <div className={`${styles.workCard} ${styles.enterUp}`} style={{ animationDelay: "1.50s" }}>
-            <div className={styles.workTitle}>Perception & Stereo Vision</div>
+            <div className={styles.workTitle}>Robotics Simulation & Research with NVIDIA Isaac Sim</div>
             <div className={styles.workDesc}>
-              Depth, tracking, calibration-minded CV workflows.
+              Learning and documenting robotics simulation using NVIDIA Isaac Sim, focusing on system architecture, physics pipelines, and professional-scale APIs.
             </div>
           </div>
 
           <div className={`${styles.workCard} ${styles.enterUp}`} style={{ animationDelay: "1.50s" }}>
-            <div className={styles.workTitle}>Robotics Compute & Server Deployment</div>
+            <div className={styles.workTitle}>Junebase Robotics — Early-Stage Robotics Exploration</div>
             <div className={styles.workDesc}>
-              Linux servers, remote dev, GPU workflows, hosting.
+              Co-founding an early-stage robotics project exploring simulation-driven approaches to real-world automation problems.
             </div>
           </div>
 
           <div className={`${styles.workCard} ${styles.enterUp}`} style={{ animationDelay: "1.50s" }}>
-            <div className={styles.workTitle}>App Development</div>
+            <div className={styles.workTitle}>Mobile controlled car & drone creation</div>
             <div className={styles.workDesc}>
-              Tools and interfaces that connect humans to systems.
-            </div>
-          </div>
-
-          <div className={`${styles.workCard} ${styles.enterUp}`} style={{ animationDelay: "1.50s" }}>
-            <div className={styles.workTitle}>Web Development & Hosting</div>
-            <div className={styles.workDesc}>
-              Portfolio + project sites, deployment, reliability.
+              PLed a team to design and build a drone from scratch, earning first place in the TSA Drone Challenge and qualifying for nationals. Personally created a bluetooth controlled car from scratch using Arduino Uno.
             </div>
           </div>
         </div>
@@ -113,8 +107,8 @@ function Home() {
                 <img className={styles.cardPhoto} src={JUNEB_BASE_IMG} alt="Junebase Robotics" />
 
                 <div className={styles.cardOverlay}>
-                  <div className={styles.cardName}>Countertop Robot</div>
-                  <div className={styles.cardRole}>ROBOT PROTOTYPING • SYSTEM DESIGN</div>
+                  <div className={styles.cardName}>Countertop robot prototype</div>
+                  <div className={styles.cardRole}>ROBOT SIMULATION RESEARCH • SYSTEM ARCHITECTURE</div>
                 </div>
 
                 {/* bottom-left link */}
@@ -134,9 +128,9 @@ function Home() {
               {/* BACK */}
               <div className={`${styles.cardFace} ${styles.cardBack}`}>
                 <p className={styles.cardParagraph}>
-                  Building a collaborative cooking-robot prototype with an emphasis on rapid iteration.
-                  Worked across mechanical design, system integration, and simulation workflows.
-                  Current focus: motion planning hooks, perception integration, and deployment pipeline.
+                  Using the measurements and design of the physical robot prototype, we are simulating a
+                  dual-arm robot to do various tasks like pick-and-place, stirring, and flipping in Isaac
+                  Sim using existing data.
                 </p>
 
                 <div className={styles.cardBackLinks}>
@@ -174,8 +168,8 @@ function Home() {
                 <img className={styles.cardPhoto} src={UNET_IMG} alt="U-Net Segmentation" />
 
                 <div className={styles.cardOverlay}>
-                  <div className={styles.cardName}>U-Net Segmentation</div>
-                  <div className={styles.cardRole}>COMPUTER VISION • DENSE PREDICTION</div>
+                  <div className={styles.cardName}>BLUETOOTH CONTROLLED CAR</div>
+                  <div className={styles.cardRole}>EMBEDDED CONTROL SYSTEM</div>
                 </div>
 
                 <a
@@ -193,9 +187,8 @@ function Home() {
               {/* BACK */}
               <div className={`${styles.cardFace} ${styles.cardBack}`}>
                 <p className={styles.cardParagraph}>
-                  Implemented and evaluated a U-Net segmentation pipeline for a CV research project.
-                  Focused on training stability, augmentation, and qualitative failure analysis.
-                  Produced a report + reproducible experiments.
+                  Designed a bluetooth-based car which uses arduino and ESP32C3 to seamlessly recieve
+                  commands from any electronic device with bluetooth to control it.
                 </p>
 
                 <div className={styles.cardBackLinks}>

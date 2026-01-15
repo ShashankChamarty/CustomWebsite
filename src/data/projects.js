@@ -3,12 +3,12 @@
 export const projectList = [
   {
     id: "junebase",
-    title: "Countertop Collaborative Robot",
-    dateLabel: "Jul 2025",
-    role: "ROBOT PROTOTYPING • SYSTEM DESIGN",
+    title: "Countertop robot prototype",
+    dateLabel: "Sep 2025",
+    role: "ROBOT SIMULATION RESEARCH • SYSTEM ARCHITECTURE",
     image: "/junebase.jpg",
     description:
-      "Developing a countertop cooking-robot prototype with open-source designs, focused on stationary robotics, simulation, and kitchen workflows under Junebase Robotics.",
+      "Using the measurements and design of the physical robot prototype, we are simulating a dual-arm robot to do various tasks like pick-and-place, stirring, and flipping in Isaac Sim using existing data.",
     primaryLink: {
       href: "https://junebase.com",
       ariaLabel: "Junebase website"
@@ -20,12 +20,12 @@ export const projectList = [
   },
   {
     id: "unet",
-    title: "U-Net Segmentation Reimplementation",
-    dateLabel: "Dec 2025",
-    role: "COMPUTER VISION • SEGMENTATION",
+    title: "BLUETOOTH CONTROLLED CAR",
+    dateLabel: "Jun 2025",
+    role: "EMBEDDED CONTROL SYSTEM",
     image: "/unet.jpg",
     description:
-      "Reimplemented the 2015 U-Net from scratch, then compared it with modern optimizers (Adam, SGD, Batch Norm) on the PHC dataset and the 2018 Data Science Bowl for cell/nucleus segmentation.",
+      "Designed a bluetooth-based car which uses arduino and ESP32C3 to seamlessly recieve commands from any electronic device with bluetooth to control it.",
     primaryLink: {
       href: "/research",
       ariaLabel: "U-Net research write-up"
@@ -65,47 +65,6 @@ export const projectList = [
     },
     links: [
       { href: "https://model28.junebase.com", label: "Project ↗" }
-    ]
-  },
-  {
-    id: "website",
-    title: "This Website",
-    dateLabel: "Jan 2025",
-    role: "WEB DESIGN • INTERACTIVE UI",
-    image: "/me.jpg",
-    description:
-      "Designed and built my portfolio with AI-assisted workflows, custom UI components, and a narrative-focused layout that spotlights my engineering work.",
-    primaryLink: {
-      href: "/",
-      ariaLabel: "Portfolio website"
-    },
-    links: [
-      { href: "/", label: "Live site ↗" }
-    ]
-  },
-  {
-    id: "server",
-    title: "Self-Hosted Ubuntu Server",
-    dateLabel: "Jan 2025",
-    role: "INFRASTRUCTURE • DEVOPS",
-    image: "/server.png",
-    description:
-      "Built and upgraded a home server for hosting sites, CI/CD, remote access, and ML/robotics workloads, including a private Nextcloud-backed NAS for 20+ devices.",
-  },
-  {
-    id: "teachers-pet",
-    title: "Teacher's Pet",
-    dateLabel: "Mar 2024",
-    role: "IOS • SWIFTUI",
-    image: "/teacherspet.png",
-    description:
-      "Built an iOS office-hours management app in Swift/SwiftUI with structured scheduling flows and data structures to improve student/TA coordination.",
-    primaryLink: {
-      href: "https://github.com/macintAsh1984/TeachersPet",
-      ariaLabel: "Teacher's Pet GitHub"
-    },
-    links: [
-      { href: "https://github.com/macintAsh1984/TeachersPet", label: "GitHub ↗" }
     ]
   }
 ];
