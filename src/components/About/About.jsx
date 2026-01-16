@@ -23,22 +23,26 @@ export default function About() {
       <div className={styles.content}>
         <h1 className={styles.sectionTitle}>About me</h1>
 
-        <h2 className={styles.mainHeading}>Hi, I am Sai Chamarty!</h2>
+        <h2 className={styles.mainHeading}>Hi, I am Shashank Chamarty!</h2>
         <p className={styles.paragraph}>
-          I am a computer science student with a focus on robotics and machine learning,
-          working on systems that connect perception, control, and physical hardware. My
-          current work centers on using simulation and structured testing to move ideas
-          from prototypes into repeatable, deployable behavior on real robotic platforms.
+          I’m a high school junior interested in robotics and computer science, especially in
+          understanding how complex systems become real through sustained effort over time. I don’t
+          approach learning as quick exploration across many topics; instead, I stay with one problem
+          long enough to understand its structure, limits, and failure modes. I believe that
+          understanding, skill, and even passion are not innate traits but things that emerge through
+          repeated, intentional attempts—an idea that has shaped how I learn and what I choose to work
+          on.
         </p>
 
         <p className={styles.paragraph}>
-          Through coursework and independent projects, I have designed and tested
-          robotic and machine learning systems using tools such as NVIDIA Isaac Sim,
-          Jetson-based hardware, and Python-based ML pipelines. I have worked on computer
-          vision tasks including object detection and semantic segmentation, and built
-          simple CI/CD workflows to support testing and iteration. Alongside this, I am
-          exploring human–machine interaction through Saiborg, a conversational AI
-          project, while continuing to develop this website as a technical portfolio.
+          That belief has guided my work in both physical and simulated systems. I led my team to
+          build a drone from scratch—something that had never been done at my school—by applying
+          principles, testing assumptions, and iterating under constraints. More recently, I’ve been
+          working with NVIDIA Isaac Sim to create a digital version of a robotics prototype, using
+          simulation as a way to explore ideas without the cost and risk of immediate real-world
+          prototyping. Robotics holds my attention because it forces ideas to confront reality:
+          systems either work or they don’t, and understanding only comes from staying with
+          uncertainty long enough for patterns to reveal themselves.
         </p>
 
       </div>

@@ -6,7 +6,7 @@ import AnimatedText from "../AnimatedText/AnimatedText";
 // Replace these with your actual images (put them in /public or import from assets)
 // If using /public, keep as "/junebase.jpg"
 const JUNEB_BASE_IMG = "/junebase.jpg";
-const UNET_IMG = "/unet.jpg";
+const UNET_IMG = "/bluetooth_car.jpg";
 
 function Home() {
   const [openId, setOpenId] = useState(null);
@@ -20,14 +20,14 @@ function Home() {
       {/* HERO */}
       <div className={styles.Text}>
         <img
-          className={styles.topRobot}
-          src="/top_robot.jpg"
+          className={styles.topMe}
+          src="/server.png"
           alt=""
           aria-hidden="true"
         />
         <img
-          className={styles.topMe}
-          src="/me.jpg"
+          className={styles.topRight}
+          src="/Home_page_pic.jpeg"
           alt=""
           aria-hidden="true"
         />

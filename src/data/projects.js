@@ -23,7 +23,7 @@ export const projectList = [
     title: "BLUETOOTH CONTROLLED CAR",
     dateLabel: "Jun 2025",
     role: "EMBEDDED CONTROL SYSTEM",
-    image: "/unet.jpg",
+    image: "/bluetooth_car.jpg",
     description:
       "Designed a bluetooth-based car which uses arduino and ESP32C3 to seamlessly recieve commands from any electronic device with bluetooth to control it.",
     primaryLink: {
@@ -37,34 +37,18 @@ export const projectList = [
   },
   {
     id: "handwritten",
-    title: "Handwritten Digit Recognition",
-    dateLabel: "Mar 2025",
-    role: "MACHINE LEARNING • CNN",
-    image: "/mnist.png",
+    title: "Custom drone with gripper",
+    dateLabel: "Dec 2024",
+    role: "WIRING • POWER SYSTEMS",
+    image: "/drone picture.jpeg",
     description:
-      "First ML project: trained a CNN on the MNIST dataset to classify digits 0–9 and studied fundamentals of data pipelines, training loops, and evaluation.",
+      "Created a FPV drone from scratch, using information from various youtube videos, and documentation. Designed the bill of materials involving flight controller, Electronic speed controller + power distribution board, motors, and battery. Integrated the gripper using Arduino uno and esc32c3 to seamlessly communicate with the gripper controller.",
     primaryLink: {
       href: "https://ml.junebase.com",
       ariaLabel: "Handwritten digit recognition demo"
     },
     links: [
       { href: "https://ml.junebase.com", label: "Demo ↗" }
-    ]
-  },
-  {
-    id: "model28",
-    title: "Model 28: Scenery Classification",
-    dateLabel: "Mar 2025",
-    role: "ML RESEARCH • MODEL COMPARISON",
-    image: "/intel.png",
-    description:
-      "Led a team of five to train Logistic Regression, MLP, and CNN models on the Intel Scenery Classification dataset, focusing on cross-model validation and comparative analysis.",
-    primaryLink: {
-      href: "https://model28.junebase.com",
-      ariaLabel: "Model 28 website"
-    },
-    links: [
-      { href: "https://model28.junebase.com", label: "Project ↗" }
     ]
   }
 ];

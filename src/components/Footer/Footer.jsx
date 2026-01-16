@@ -8,14 +8,14 @@ export default function Footer() {
 
       <div className={styles.links}>
         <a
-          href="mailto:saiganeshchamarty@gmail.com"
+          href="mailto:chamartyshashank@gmail.com"
           aria-label="Email"
         >
           <img src="/email.png" alt="Email icon" />
         </a>
 
         <a
-          href="https://www.linkedin.com/in/sai-chamarty-263342274/"
+          href="https://www.linkedin.com/in/shashank-chamarty-124a1b316"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
@@ -24,7 +24,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://github.com/SaiChamarty"
+          href="https://github.com/ShashankChamarty"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
 
       <div className={styles.meta}>
-        <p>© 2026 Sai Chamarty. All rights reserved.</p>
+        <p>© 2026 Shashank Chamarty. All rights reserved.</p>
         <p className={styles.subtle}>
           This website has been created using AI assisted workflows.
         </p>
