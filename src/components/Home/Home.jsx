@@ -79,7 +79,7 @@ function Home() {
           <div className={`${styles.workCard} ${styles.enterUp}`} style={{ animationDelay: "1.50s" }}>
             <div className={styles.workTitle}>Mobile controlled car & drone creation</div>
             <div className={styles.workDesc}>
-              PLed a team to design and build a drone from scratch, earning first place in the TSA Drone Challenge and qualifying for nationals. Personally created a bluetooth controlled car from scratch using Arduino Uno.
+              Led a team to design and build a drone from scratch, earning first place in the TSA Drone Challenge and qualifying for nationals. Personally created a bluetooth controlled car from scratch using Arduino Uno.
             </div>
           </div>
         </div>
