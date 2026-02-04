@@ -15,7 +15,7 @@ export default function Footer() {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/shashank-chamarty-124a1b316"
+          href="https://www.linkedin.com/in/shashankchamarty"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
