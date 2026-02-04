@@ -1,19 +1,18 @@
-# Portfolio Website of Shashank Chamarty
+# Portfolio Website: Shashank Chamarty
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is my personal portfolio website, built to showcase my projects and technical skills.
 
-## More info:
-My website has three tabs: home page, projects, and about me
+## Credits & Acknowledgements
+This project is a customized fork of the [my-website](https://github.com/SaiChamarty/my-website) repository by [Sai Chamarty](https://github.com/SaiChamarty). I have built upon his original architecture to include personalized animations and project showcases.
 
-### Home page animaton
-Home page has a really cool introduction about me, and what I like. Even though it is a regular text, I have used CSS animations to make it look even better!
+## Features
+### Home Page & CSS Animations
+The landing page features a dynamic introduction. While the content is text-based, I implemented custom **CSS animations** to enhance the user experience and visual flow.
 
 ### Projects
-This tab of the website includes various projects I have been working on.
+A curated list of my technical work, highlighting my contributions to software development and design.
 
-### Deployment
-This website is live at:
-[https://shashank.junebase.com]
-
-Junebase our private server that I use to host applications.
+## Deployment
+The site is live and hosted on our private server:
+[https://shashank.junebase.com](https://shashank.junebase.com)
 
