@@ -15,7 +15,6 @@ export const projectList = [
     },
     links: [
       { href: "https://junebase.com", label: "Website ↗" },
-      { href: "https://github.com/Junebase-Robotics", label: "GitHub ↗" }
     ]
   },
   {
@@ -26,13 +25,9 @@ export const projectList = [
     image: "/bluetooth_car.jpg",
     description:
       "Designed a bluetooth-based car which uses arduino and ESP32C3 to seamlessly recieve commands from any electronic device with bluetooth to control it.",
-    primaryLink: {
-      href: "/research",
-      ariaLabel: "U-Net research write-up"
-    },
+    primaryLink: null,
     links: [
-      { href: "/research", label: "Write-up ↗" },
-      { href: "https://github.com/JonathanPLev/Unet-ReImplementation", label: "Code ↗" }
+      { href: "https://github.com/ShashankChamarty/Bluetooth-Controlled-Car", label: "Repository ↗" }
     ]
   },
   {
@@ -48,7 +43,11 @@ export const projectList = [
       ariaLabel: "Handwritten digit recognition demo"
     },
     links: [
-      { href: "https://ml.junebase.com", label: "Demo ↗" }
+      {
+        href: "/Drone Challenge UAV Documentation.pdf",
+        label: "UAV Documentation ↗",
+        newTab: true
+      }
     ]
   }
 ];

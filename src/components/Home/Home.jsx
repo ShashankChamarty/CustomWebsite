@@ -141,13 +141,6 @@ function Home() {
                   >
                     Website ↗
                   </a>
-                  <a
-                    href="https://github.com/Junebase-Robotics"
-                    className={styles.pill}
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    GitHub ↗
-                  </a>
                 </div>
 
                 <div className={styles.cardAction} aria-hidden="true">×</div>
@@ -172,14 +165,7 @@ function Home() {
                   <div className={styles.cardRole}>EMBEDDED CONTROL SYSTEM</div>
                 </div>
 
-                <a
-                  href="/research"
-                  className={styles.cardLink}
-                  onClick={(e) => e.stopPropagation()}
-                  aria-label="U-Net writeup"
-                >
-                  ↗
-                </a>
+                <div className={styles.cardLink} aria-hidden="true">↗</div>
 
                 <div className={styles.cardAction} aria-hidden="true">+</div>
               </div>
@@ -193,18 +179,11 @@ function Home() {
 
                 <div className={styles.cardBackLinks}>
                   <a
-                    href="/research"
+                    href="https://github.com/ShashankChamarty/Bluetooth-Controlled-Car"
                     className={styles.pill}
                     onClick={(e) => e.stopPropagation()}
                   >
-                    Write-up ↗
-                  </a>
-                  <a
-                    href="https://github.com/JonathanPLev/Unet-ReImplementation"
-                    className={styles.pill}
-                    onClick={(e) => e.stopPropagation()}
-                  >
-                    Code ↗
+                    Repository ↗
                   </a>
                 </div>
 

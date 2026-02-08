@@ -78,6 +78,8 @@ export default function ProjectContent(props) {
                       href={link.href}
                       className="project-pill"
                       onClick={(e) => e.stopPropagation()}
+                      target={link.newTab ? "_blank" : undefined}
+                      rel={link.newTab ? "noreferrer" : undefined}
                     >
                       {link.label}
                     </a>
